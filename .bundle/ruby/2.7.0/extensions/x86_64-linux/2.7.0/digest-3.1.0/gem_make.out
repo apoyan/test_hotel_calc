@@ -1,0 +1,18 @@
+current directory: /home/runner/CorruptBossyJavabytecode/.bundle/ruby/2.7.0/gems/digest-3.1.0/ext/digest/sha2
+/nix/store/yfmnyvd0asw5bs24lg611xn2gi4prqla-ruby-2.7.4/bin/ruby -I /nix/store/yfmnyvd0asw5bs24lg611xn2gi4prqla-ruby-2.7.4/lib/ruby/2.7.0 -r ./siteconf20220415-1451-bi9mph.rb extconf.rb
+checking for u_int8_t... yes
+checking for sys/cdefs.h... yes
+creating Makefile
+
+current directory: /home/runner/CorruptBossyJavabytecode/.bundle/ruby/2.7.0/gems/digest-3.1.0/ext/digest/sha2
+make DESTDIR\= clean
+
+current directory: /home/runner/CorruptBossyJavabytecode/.bundle/ruby/2.7.0/gems/digest-3.1.0/ext/digest/sha2
+make DESTDIR\=
+compiling sha2init.c
+compiling sha2.c
+linking shared-object digest/sha2.so
+
+current directory: /home/runner/CorruptBossyJavabytecode/.bundle/ruby/2.7.0/gems/digest-3.1.0/ext/digest/sha2
+make DESTDIR\= install
+/nix/store/1570w56jrkvr90w9x158vyb5vahnk18v-coreutils-8.32/bin/install -c -m 0755 sha2.so ./.gem.20220415-1451-7sxspt/digest
